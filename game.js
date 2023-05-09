@@ -1,0 +1,1 @@
+let moneyCounter = 0; let workerCounter = 0; function clickForMoney() { moneyCounter += 10; document.getElementById("moneyCounter").innerHTML = "Money: " + moneyCounter; } function hireWorker() { if (moneyCounter >= 100) { moneyCounter -= 100; workerCounter += 1; document.getElementById
